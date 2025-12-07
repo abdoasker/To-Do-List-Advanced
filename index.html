@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <title>&#x1F4DD; To Do List </title>
 </head>
+
 <body>
     <div class="cruds">
         <div class="head">
@@ -19,7 +22,7 @@
                 <input onkeyup="getTotal()" placeholder="price" type="number" id="taxes">
                 <input onkeyup="getTotal()" placeholder="ads" type="number" id="ads">
                 <input onkeyup="getTotal()" placeholder="discount" type="number" id="discount">
-                <small   id="total">451</small>
+                <small id="total">451</small>
             </div>
             <input placeholder="count" type="number" id="count">
             <input placeholder="categorys" type="text" id="categorys">
@@ -34,38 +37,39 @@
                     <button onclick="getSearchMood(this.id)" id="search_category">search by category</button>
                 </div>
             </div> -->
-            <div class="outbut">
-                <div class="search_block">
-                    <input onkeyup="searchData(this.value)" type="text" id="search" placeholder="Search...">
-                    <div class="btn_search">
-                        <button onclick="getSearchMood(this.id)" id="search_title">Search by Title</button>
-                        <button onclick="getSearchMood(this.id)" id="search_category">Search by Category</button>
-                    </div>
+        <div class="outbut">
+            <div class="search_block">
+                <input onkeyup="searchData(this.value)" type="text" id="search" placeholder="Search...">
+                <div class="btn_search">
+                    <button onclick="getSearchMood(this.id)" id="search_title">Search by Title</button>
+                    <button onclick="getSearchMood(this.id)" id="search_category">Search by Category</button>
                 </div>
             </div>
-            <div id="deleteAll" class="btnDeleteAll">
-            
-            </div>
-            
-            <table>
-                <tr>
-                    <th>id</th>
-                    <th>title</th>
-                    <th>price</th>
-                    <th>taxes</th>
-                    <th>ads</th>
-                    <th>discount</th>
-                    <th>total</th>
-                    <th>category</th>
-                    <th>update</th>
-                    <th>delete</th>
-                </tr>
-                <tbody id="tbody">
-                    
-                </tbody>
-            </table>
         </div>
+        <div id="deleteAll" class="btnDeleteAll">
+
+        </div>
+
+        <table>
+            <tr>
+                <th>id</th>
+                <th>title</th>
+                <th>price</th>
+                <th>taxes</th>
+                <th>ads</th>
+                <th>discount</th>
+                <th>total</th>
+                <th>category</th>
+                <th>update</th>
+                <th>delete</th>
+            </tr>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
