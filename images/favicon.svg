@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style> .check { fill: none; stroke: #fff; stroke-width:4; stroke-linecap:round; stroke-linejoin:round } </style>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#e11d48"/>
+  <path class="check" d="M20 34 L28 42 L46 24" />
+</svg>
